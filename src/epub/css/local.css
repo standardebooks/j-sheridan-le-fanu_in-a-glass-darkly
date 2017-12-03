@@ -4,3 +4,8 @@
 abbr.name{
 	white-space: nowrap;
 }
+
+b{
+	font-weight: normal;
+	font-variant: small-caps;
+}
