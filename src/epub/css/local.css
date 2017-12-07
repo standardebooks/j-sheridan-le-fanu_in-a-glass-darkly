@@ -15,6 +15,7 @@ span[epub|type~="subtitle"]{
 }
 
 [epub|type~="z3998:valediction"]{
+	text-align: right;
 	text-indent: 2em;
 }
 
@@ -29,5 +30,4 @@ b{
 
 .signature{
 	font-variant: small-caps;
-	text-align: right;
 }
