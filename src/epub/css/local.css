@@ -19,6 +19,11 @@ span[epub|type~="subtitle"]{
 	text-indent: 2em;
 }
 
+[epub|type~="z3998:postscript"] header{
+	text-align: center;
+	font-variant: small-caps;
+}
+
 abbr.name{
 	white-space: nowrap;
 }
