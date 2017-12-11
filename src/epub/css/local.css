@@ -38,6 +38,10 @@ b{
 	font-variant: small-caps;
 }
 
+.headline{
+	text-align: center;
+}
+
 .signature{
 	font-variant: small-caps;
 }
