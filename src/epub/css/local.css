@@ -38,6 +38,10 @@ span[epub|type~="subtitle"]{
 	text-indent: 1em;
 }
 
+[epub|type~="recipient"]{
+	font-style: italic;
+}
+
 [epub|type~="recipient"] p:nth-child(1){
 	text-indent: 1em;
 }
@@ -53,6 +57,11 @@ span[epub|type~="subtitle"]{
 
 [epub|type~="recipient"] p:nth-child(4){
 	text-indent: 3em;
+}
+
+[epub|type~="z3998:salutation"]{
+	font-weight: normal;
+	font-variant: small-caps;
 }
 
 [epub|type~="z3998:valediction"]{
