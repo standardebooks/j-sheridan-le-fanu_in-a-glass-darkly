@@ -42,11 +42,7 @@ span[epub|type~="subtitle"]{
 	font-style: italic;
 }
 
-[epub|type~="z3998:recipient"] p:nth-child(1){
-	text-indent: 1em;
-}
-
-[epub|type~="z3998:recipient"] p:nth-child(2)
+[epub|type~="z3998:recipient"] p:nth-child(2),
 [epub|type~="z3998:recipient"] p:nth-child(5){
 	text-indent: 5em;
 }
