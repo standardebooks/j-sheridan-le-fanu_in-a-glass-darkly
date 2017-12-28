@@ -38,24 +38,24 @@ span[epub|type~="subtitle"]{
 	text-indent: 1em;
 }
 
-[epub|type~="recipient"]{
+[epub|type~="z3998:recipient"]{
 	font-style: italic;
 }
 
-[epub|type~="recipient"] p:nth-child(1){
+[epub|type~="z3998:recipient"] p:nth-child(1){
 	text-indent: 1em;
 }
 
-[epub|type~="recipient"] p:nth-child(2)
-[epub|type~="recipient"] p:nth-child(5){
+[epub|type~="z3998:recipient"] p:nth-child(2)
+[epub|type~="z3998:recipient"] p:nth-child(5){
 	text-indent: 5em;
 }
 
-[epub|type~="recipient"] p:nth-child(3){
+[epub|type~="z3998:recipient"] p:nth-child(3){
 	text-indent: 7em;
 }
 
-[epub|type~="recipient"] p:nth-child(4){
+[epub|type~="z3998:recipient"] p:nth-child(4){
 	text-indent: 3em;
 }
 
@@ -72,6 +72,10 @@ span[epub|type~="subtitle"]{
 [epub|type~="z3998:postscript"] header{
 	text-align: center;
 	font-variant: small-caps;
+}
+
+abbr.era{
+	font-variant: all-small-caps;
 }
 
 abbr.name{
