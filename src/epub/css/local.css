@@ -6,22 +6,20 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-[epub|type~="z3998:verse"]{
-	margin: 1em auto;
-	text-align: right;
-}
-
+[epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:verse"] p > span,
 [epub|type~="z3998:song"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
+[epub|type~="z3998:verse"] p > span + br,
 [epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
