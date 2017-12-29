@@ -30,14 +30,6 @@ span[epub|type~="subtitle"]{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:letter"]{
-	margin: 1em;
-}
-
-[epub|type~="z3998:letter"] p{
-	text-indent: 1em;
-}
-
 [epub|type~="z3998:recipient"]{
 	font-style: italic;
 }
@@ -58,11 +50,6 @@ span[epub|type~="subtitle"]{
 [epub|type~="z3998:salutation"]{
 	font-weight: normal;
 	font-variant: small-caps;
-}
-
-[epub|type~="z3998:valediction"]{
-	text-align: right;
-	text-indent: 2em;
 }
 
 [epub|type~="z3998:postscript"] header{
@@ -86,6 +73,11 @@ b{
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
+}
+
+footer{
+	text-align: right;
+	margin-top: 1em;
 }
 
 .headline{
