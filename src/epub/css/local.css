@@ -1,7 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-section[epub|type~="subchapter"]{
+section[epub|type~="z3998:postscript"]{
 	margin-top: 3em;
 }
 
@@ -57,6 +57,7 @@ span[epub|type~="subtitle"]{
 [epub|type~="z3998:postscript"] header{
 	text-align: center;
 	font-variant: small-caps;
+	margin-bottom: 1em;
 }
 
 abbr.era{
