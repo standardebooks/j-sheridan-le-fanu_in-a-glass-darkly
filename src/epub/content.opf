@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/j-sheridan-le-fanu/in-a-glass-darkly</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
+		<dc:date>2017-12-29T00:46:06Z</dc:date>
+		<meta property="dcterms:modified">2017-12-29T00:46:06Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -29,7 +29,7 @@
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;In a Glass Darkly&lt;/i&gt; is a collection of five short stories, presented as posthumous papers of cases of the “metaphysical” doctor Dr. Martin Hesselius. First appearing in “Green Tea,” originally published in 1869, Dr. Hesselius became one of the first literary occult detectives.&lt;/p&gt;
-			&lt;p&gt;J. Sheridan Le Fanu often made revisions to his work and re-released several under new names, including two from &lt;i&gt;In a Glass Darkly&lt;/i&gt;: “The Familiar” a revised version of “The Watcher,” published in 1851, and “Mr. Justice Harbottle” a revised version of “An Account of Some Strange Disturbances in Aungier Street,” published in 1853.&lt;/p&gt;
+			&lt;p&gt;J. Sheridan Le Fanu often made revisions to his work and re-released several under new names, including two from &lt;i&gt;In a Glass Darkly&lt;/i&gt;: “The Familiar,” a revised version of “The Watcher,” published in 1851, and “Mr. Justice Harbottle,” a revised version of “An Account of Some Strange Disturbances in Aungier Street,” published in 1853.&lt;/p&gt;
 			&lt;p&gt;Most notably, this collection includes what is likely Sheridan Le Fanu’s most famous work, “Carmilla.” A young countess turned vampire, Countess Mircalla uses the anagram of her name, Carmilla, to disguise herself in order to prey on unsuspecting young women. “Carmilla” would heavily influence Bram Stoker’s &lt;i&gt;Dracula&lt;/i&gt;, which would later become the prototypical vampire archetype.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
@@ -71,6 +71,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
