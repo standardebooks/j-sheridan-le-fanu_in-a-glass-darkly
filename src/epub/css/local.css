@@ -32,6 +32,11 @@ span[epub|type~="subtitle"]{
 	margin-top: 1em;
 }
 
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
 [epub|type~="z3998:recipient"]{
 	font-style: italic;
 }
@@ -55,27 +60,12 @@ span[epub|type~="subtitle"]{
 }
 
 [epub|type~="z3998:postscript"] header{
-	text-align: center;
 	font-variant: small-caps;
 	margin-bottom: 1em;
 }
 
 abbr.era{
 	font-variant: all-small-caps;
-}
-
-abbr.name{
-	white-space: nowrap;
-}
-
-b{
-	font-weight: normal;
-	font-variant: small-caps;
-}
-
-p span.i1{
-	text-indent: -1em;
-	padding-left: 2em;
 }
 
 footer{
