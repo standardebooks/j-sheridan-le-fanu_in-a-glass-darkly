@@ -82,6 +82,11 @@ footer{
 	text-align: center;
 }
 
+.inscription p,
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
 .signature{
 	font-variant: small-caps;
 }
