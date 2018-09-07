@@ -10,6 +10,10 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
+[epub|type~="chapter"]{
+	page-break-before: always;
+}
+
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
 	text-align: left;
