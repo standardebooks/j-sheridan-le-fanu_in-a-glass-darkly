@@ -77,16 +77,16 @@ footer{
 	margin-top: 1em;
 }
 
-.headline{
+#mr-justice-harbottle-chapter-4 blockquote p:first-child{
 	text-align: center;
 }
 
-.inscription{
+#the-room-in-the-dragon-volant-chapter-23 blockquote{
 	font-variant: small-caps;
 	text-align: center;
 }
 
-.inscription p,
+#the-room-in-the-dragon-volant-chapter-23 blockquote p,
 [epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
