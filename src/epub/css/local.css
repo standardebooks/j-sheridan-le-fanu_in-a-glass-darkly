@@ -11,7 +11,7 @@ span[epub|type~="subtitle"]{
 }
 
 [epub|type~="chapter"]{
-	page-break-before: always;
+	break-before: page;
 }
 
 [epub|type~="z3998:verse"] p,
