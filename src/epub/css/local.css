@@ -63,7 +63,7 @@ p span.i1{
 	margin-bottom: 1em;
 }
 
-abbr.era{
+[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
