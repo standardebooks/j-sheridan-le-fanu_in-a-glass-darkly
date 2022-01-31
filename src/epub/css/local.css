@@ -54,8 +54,8 @@ p span.i1{
 }
 
 [epub|type~="z3998:salutation"]{
-	font-weight: normal;
 	font-variant: small-caps;
+	font-weight: normal;
 }
 
 [epub|type~="z3998:postscript"] header{
@@ -68,8 +68,8 @@ p span.i1{
 }
 
 footer{
-	text-align: right;
 	margin-top: 1em;
+	text-align: right;
 }
 
 #mr-justice-harbottle-chapter-4 blockquote p:first-child{
