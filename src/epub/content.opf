@@ -37,6 +37,7 @@
 		<meta property="se:subject">Horror</meta>
 		<meta property="se:subject">Mystery</meta>
 		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of five of Le Fanu’s short stories, including his most notable work “Carmilla,” presented as cases of the occult detective Dr. Martin Hesselius.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;In a Glass Darkly&lt;/i&gt; is a collection of five short stories, presented as posthumous papers of cases of the “metaphysical” doctor &lt;abbr&gt;Dr.&lt;/abbr&gt; Martin Hesselius. First appearing in “Green Tea,” originally published in 1869, &lt;abbr&gt;Dr.&lt;/abbr&gt; Hesselius became one of the first literary occult detectives.&lt;/p&gt;
